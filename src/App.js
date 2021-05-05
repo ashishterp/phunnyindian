@@ -5,12 +5,12 @@ function App() {
     <div className="grid grid-cols-4 justify-items-center bg-sun p-4">
       <div className="col-span-4">
         <img
-          className="w-full lg:w-1/2 shadow-md mx-auto"
+          className="w-full rounded-md lg:w-1/2 shadow-xl mx-auto"
           src={logo}
           alt="Here Comes The Son"
         />
       </div>
-      <div className="col-span-4 lg:col-span-2 lg:col-start-2 mx-auto p-4">
+      <div className="col-span-4 lg:col-span-2 lg:col-start-2 mx-auto p-4 pb-0">
         <a
           className="inline-flex items-center h-16 px-4 m-2 text-lg font-bold text-sun transition-colors duration-150 bg-white rounded-lg focus:shadow-outline hover:bg-yellow-500 hover:text-white"
           href="https://www.babylist.com/baby-harsha-satyal"
@@ -34,13 +34,13 @@ function App() {
         </a>
       </div>
 
-      <div className="col-span-4 lg:col-span-2 lg:col-start-2 mx-auto p-4 bg-white shadow-md">
+      <div className=" rounded-md col-span-4 opacity-75 lg:col-span-2 lg:col-start-2 mx-auto p-4 bg-white shadow-md">
         <p className="mb-4">
           Yes, to respect our friends' crazy schedules, we're gonna do this four
           times. Free Zoom allows up to 25 on a screen so we're doing 24 slots
-          per shower. We're dorks, we know. Use the Sign Up button above to RSVP.
-        </p>
-        <p className="mb-4">
+          per shower. We're dorks, we know. <span class="font-bold">Use the Sign Up button above to RSVP.
+        </span></p>
+        <p className="mb-4 italic">
           (Please try to sign in from one device. If you know you'll be signing
           in from more than one (e.g., your spouse is traveling), let us know so
           we can ensure you get two slots.)
@@ -53,7 +53,7 @@ function App() {
           We won't play any games but we do wanna hear if anyone has any boy
           name suggestions.
         </p>
-        Parameters:
+        <span class="font-bold">Parameters:</span>
         <ul className="list-disc list-inside mb-4">
           <li>Indian.</li>
           <li>Easy for the whites to pronounce.</li>
