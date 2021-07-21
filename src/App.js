@@ -17,7 +17,7 @@ function App() {
           target="_blank"
           rel="noreferrer"
         >
-          Registry!
+          Registry
         </a>
       </div>
 
